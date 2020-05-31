@@ -5,8 +5,8 @@ $(document).ready(function(){
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 5000,
-        prevArrow:'<button type="button" class="slick-prev"><img src="../icons/left_arrow.svg"></button>',
-        nextArrow:'<button type="button" class="slick-next"><img src="../icons/right_arrow.svg"></button>',
+        prevArrow:'<button type="button" class="slick-prev"><img src="icons/left_arrow.svg"></button>',
+        nextArrow:'<button type="button" class="slick-next"><img src="icons/right_arrow.svg"></button>',
         dots: false,
         responsive:
         [
