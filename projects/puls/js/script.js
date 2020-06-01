@@ -25,15 +25,17 @@ $(document).ready(function(){
         {
         $(this)
           .addClass('catalog__item_active').siblings().removeClass('catalog__item_active')
-          .closest('div.container_catalog').find('div.cards').removeClass('cards_active').eq($(this).index()).addClass('cards_active');
+          .closest('div.container').find('div.cards').removeClass('cards_active').eq($(this).index()).addClass('cards_active');
     });
 
-    $('ul.catalog__list_menu').on('click', 'li:not(.catalog__item_active)', function() 
-        {
-        $(this)
-          .addClass('catalog__item_active').siblings().removeClass('catalog__item_active')
-          .closest('section.catalog').find('div.cards').removeClass('cards_active').eq($(this).index()).addClass('cards_active');
-    });
+    // $('ul.catalog__list_menu').on('click', 'li:not(.catalog__item_active)', function() 
+    //     {
+    //     $(this)
+    //       .addClass('catalog__item_active').siblings().removeClass('catalog__item_active');
+    //       let arg=document.getElementsByClassName("cards")
+    //         arg.removeClass('cards_active').eq($(this).index()).addClass('cards_active');
+          
+    // });
 
     function toggleSlide(item){
         $(item).each(function(i){
