@@ -23,8 +23,6 @@ window.addEventListener('DOMContentLoaded',() =>{
             i++;
             score.textContent = `убито мышей: ${i}`;
             item.style.display = "none";
-            console.dir(e.target);
-            console.dir(e.target);
             if (i == 10){
                 interval = 1000;
                 clearInterval(id);
