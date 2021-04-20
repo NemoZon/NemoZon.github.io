@@ -6,13 +6,13 @@
 .title{
     color: white;
     text-align: center;
-    font-size: 70px;
+    font-size: 40px;
     padding: 20px 0 10px 0;
 }
 h1{
     text-align: center;
     color: white;
-    font-size: 70px;
+    font-size: 30px;
 }
 #bg{
     width: 700px;
@@ -90,15 +90,15 @@ body{
     justify-content: center;
 }
 button{
-    width: 300px;
-    height: 150px;
+    width: 200px;
+    height: 100px;
     text-align: center;
     background: url(../img/bg_button.png);
     color: black;
-    font-size: 60px;
+    font-size: 40px;
     border-radius: 20px;
     border: 0;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 button:focus {
     outline: none;
@@ -111,7 +111,8 @@ button:focus {
 h2{
     padding: 0 10px 0 10px;
     color: white;
-    font-size: 60px;
+    font-size: 30px;
+    text-align: center;
 }
 .animals img{
     width: 70px;
@@ -126,18 +127,18 @@ h2{
         width: 500px;
     }
     .title{
-        font-size: 50px;
+        font-size: 37px;
     }
     h2{
-        font-size: 50px;
+        font-size: 25px;
     }
     h1{
-        font-size: 50px;
+        font-size: 35px;
     }
     button{
         margin: 10px;
-        width: 200px;
-        font-size: 40px;
+        width: 150px;
+        font-size: 35px;
         height: 100px;
     }
     .animals img{
@@ -150,13 +151,19 @@ h2{
         font-size: 30px;
     }
     h2{
-        font-size: 30px;
+        font-size: 20px;
     }
     h1{
-        font-size: 30px;
+        font-size: 25px;
     }
     .animals img{
         width: 40px;
         height: 40px;
+    }
+    button{
+        margin: 10px;
+        width: 100px;
+        font-size: 20px;
+        height: 50px;
     }
 }
