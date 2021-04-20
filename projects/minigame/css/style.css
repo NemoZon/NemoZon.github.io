@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+.title{
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    padding: 20px 0 10px 0;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 100px;
+}
+#bg{
+    width: 1000px;
+    display: flex;
+    
+}
+body{
+    background: url(../img/bg2.jpg) ;
+
+}
+.background_cheese{
+    position: relative;
+    width: 1000px;
+    margin: auto;
+}
+.animals .mouse{
+    position: absolute;
+}
+#m1{
+    right: 77%;
+    top: 13%;
+}
+#m2{
+    right: 79%;
+    top: 50%;
+    transform: rotate(70deg);
+}
+#m3{
+    right: 44%;
+    top: 7%;
+    transform: rotate(180deg);
+}
+#m4{
+    right: 16%;
+    top: 12%;
+    transform: rotate(90deg);
+}
+#m5{
+    right: 26%;
+    top: 26%;
+    transform: rotate(-100deg);
+}
+#m6{
+    right: 16%;
+    top: 41%;
+    transform: rotate(90deg);
+}
+#m7{
+    right: 16%;
+    top: 75%;
+    transform: rotate(150deg);
+}
+#m8{
+    right: 45%;
+    top: 47.5%;
+    transform: rotate(0deg);
+}
+#m9{
+    right: 46%;
+    top: 81.5%;
+    transform: rotate(0deg);
+}
+#m10{
+    right: 80%;
+    top: 84%;
+    transform: rotate(-90deg);
+}
+#m11{
+    right: 64%;
+    top: 71%;
+    transform: rotate(-90deg);
+}
+.button {
+    display: flex;
+    justify-content: center;
+}
+button{
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    background: url(../img/bg_button.png);
+    color: black;
+    font-size: 80px;
+    border-radius: 20px;
+    border: 0;
+    margin-top: 80px;
+}
+button:focus {
+    outline: none;
+    box-shadow: 5px;
+}
+
+.data{
+    display: flex;
+    font-size: 20px;
+}
+h2{
+    padding: 0 100px 0 100px;
+    color: white;
+    font-size: 90px;
+}
+.data .score{
+    right: 0;
+}
+
+@media only screen and (max-width : 1000px) {
+    #bg{
+        width: 500px;
+    }
+    .background_cheese{
+        width: 500px;
+    }
+    .title{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 50px;
+    }
+    h1{
+        font-size: 50px;
+    }
+    button{
+        margin: 10px;
+        width: 200px;
+        font-size: 50px;
+        height: 100px;
+    }
+}
