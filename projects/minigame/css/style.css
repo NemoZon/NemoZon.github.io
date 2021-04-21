@@ -167,3 +167,11 @@ h2{
         height: 50px;
     }
 }
+@media only screen and (max-width : 499px){
+    #bg{
+        width: 300px;
+    }
+    .background_cheese{
+        width: 300px;
+    }
+}
