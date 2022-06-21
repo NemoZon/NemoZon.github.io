@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./public/css/main.min.css">
+    <title>LARISA PANIER</title>
+</head>
+<body>
+
+    <nav class="nav">
+        <div class="logo">
+            <div class="logo__title">LARISA PANIER</div>
+            <div class="logo__subtitle">maître de service d'ongles</div>
+        </div>
+        <div class="nav__content">
+            <a href="#" class="nav__item">À propos de moi</a>
+            <a href="#" class="nav__item">Services</a>
+            <a href="#" class="nav__item">Portfolio</a>
+            <a href="#" class="nav__item">Actions</a>
+            <a href="#" class="nav__item">Avis</a>
+            <a href="#" class="nav__item">Сontacts</a>
+        </div>
+        <div class="social-media">
+            <a href="#"><img src="public/img/facebook.svg" class="social-media__img" alt="facebook"></a>
+            <a href="#"><img src="public/img/instagram.svg" class="social-media__img" alt="instagram"></a>
+        </div>
+    </nav>
+
+
+    <div class="main-section">
+        <div class="main-section__banner">
+            <div class="main-section__title">
+                <h1 class="main-section__h1">Beaux ongles <br>
+                    <span class="main-section__span">et</span> <br>
+                    Bien entretenus
+                </h1>
+                <h2 class="main-section__h2">En 2 heures</h2>
+            </div>
+            <button class="btn main-section__btn" type="button" data-bs-toggle="modal" data-bs-target="#Modal">S'inscrire</button>
+        </div>
+    </div>
+    
+
+    <div class="me-section">
+        <div class="container">
+            <div class="title">À PROPOS DE MOI</div>
+            <div class="me-section__title">Votre maître personnel</div>
+            <div class="me-section__desc">
+                <div class="ava me-section__ava" style="background-image: url(public/img/avatars/batel-studio-ttSRjiYG_WM-unsplash.jpg);"></div>
+                <p class="me-section__text"><span class="me-section__span">What is Lorem Ipsum?</span><br>
+                    Lorem Ipsum is simply dummy text of the
+                    printing and typesetting industry. Lorem Ipsum
+                    has been the industry's standard dummy text 
+                    ever since the 1500s, when an unknown</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="service-section">
+        <div class="title">SERVICES</div>
+        <div class="service-section__items">
+            <div class="item">
+                <img src="public/img/item1.jpg" alt="service" class="item__image">
+                <div class="item__title">01 /  What is Lorem Ipsum</div>
+                <p class="item__cost">20$</p>
+                <div class="item__btns">
+                    <button class="btn btn_blue item__btn item__savoir-plus">Savoir plus</button>
+                    <button class="btn item__btn" type="button" data-bs-toggle="modal" data-bs-target="#Modal">S'inscrire</button>
+                </div>
+                <div class="savoir-plus savoir-plus_active">
+                    <button type="button" class="savoir-plus__btn-close btn-close" aria-label="Close"></button>
+                    <p class="savoir-plus__desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto suscipit dolorum ut, illo reiciendis provident dolor natus quidem quod similique ex placeat culpa doloremque odit saepe ipsa harum laboriosam cum!
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="public/img/item2.jpg" alt="service" class="item__image">
+                <div class="item__title">01 / What is Lorem Ipsum</div>
+                <p class="item__cost">20$</p>
+                <div class="item__btns">
+                    <button class="btn btn_blue item__btn item__savoir-plus">Savoir plus</button>
+                    <button class="btn item__btn" type="button" data-bs-toggle="modal" data-bs-target="#Modal">S'inscrire</button>
+                </div>
+                <div class="savoir-plus savoir-plus_active">
+                    <button type="button" class="savoir-plus__btn-close btn-close" aria-label="Close"></button>
+                    <p class="savoir-plus__desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto suscipit dolorum ut, illo reiciendis provident dolor natus quidem quod similique ex placeat culpa doloremque odit saepe ipsa harum laboriosam cum!
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="public/img/item3.jpg" alt="service" class="item__image">
+                <div class="item__title">01 / What is Lorem Ipsum
+                </div>
+                <p class="item__cost">20$</p>
+                <div class="item__btns">
+                    <button class="btn btn_blue item__btn item__savoir-plus">Savoir plus</button>
+                    <button class="btn item__btn" type="button" data-bs-toggle="modal" data-bs-target="#Modal">S'inscrire</button>
+                </div>
+                <div class="savoir-plus savoir-plus_active">
+                    <button type="button" class="savoir-plus__btn-close btn-close" aria-label="Close"></button>
+                    <p class="savoir-plus__desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto suscipit dolorum ut, illo reiciendis provident dolor natus quidem quod similique ex placeat culpa doloremque odit saepe ipsa harum laboriosam cum!
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+    
+    </div>
+
+
+    <div class="portfolio-section">
+        <div class="container">
+            <div class="title">PORTFOLIO</div>
+            <div id="main-carousel" class="carousel slide" data-bs-ride="carousel">
+                <button class="carousel-control-prev carousel-control-prev_background" type="button" data-bs-target="#main-carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="public/img/item1.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="public/img/item2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="public/img/item3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <button class="carousel-control-next carousel-control-next_background" type="button" data-bs-target="#main-carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="promo-section">
+        <div class="container">
+            <div class="title title_color">ACTIONS</div>
+            <div class="promo-section__content">
+                <div class="timer">
+                    <div class="timer__item" id="days">00<span class="timer__span">Jours</span></div>
+                    <div class="timer__item" id="hours">00<span class="timer__span">Heures</span></div>
+                    <div class="timer__item" id="minutes">00<span class="timer__span">Minutes</span></div>
+                    <div class="timer__item" id="seconds">00<span class="timer__span">Secondes</span></div>
+                </div>
+                <p class="promo-section__p">-50% sur tout pour les premiers clients</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="comment-section">
+        <div class="container">
+            <div class="title title_color">AVIS</div>
+            <div id="comments" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner carousel-inner_border">
+                    <div class="carousel-item active">
+                        <div class="comment-section__content">
+                            <div class="comment-section__ava ava" style="background-image: url(./public/img/avatars/matheus-ferrero-pg_WCHWSdT8-unsplash.jpg)"></div>
+                            <div class="comment-section__text">
+                                <p class="comment-section__name">ANNA Anna</p>
+                                <p class="comment-section__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pellentesque est vel tellus aliquam pharetra. Sed ullamcorper interdum dolor, consectetur dictum arcu elementum non.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="comment-section__content">
+                            <div class="comment-section__ava ava" style="background-image: url(./public/img/avatars/kelly-sikkema-JN0SUcTOig0-unsplash.jpg)"></div>
+                            <div class="comment-section__text">
+                                <p class="comment-section__name">Emma Amna</p>
+                                <p class="comment-section__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pellentesque est vel tellus aliquam pharetra. Sed ullamcorper interdum dolor, consectetur dictum arcu elementum non.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev carousel-control-prev_inside" type="button" data-bs-target="#comments" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next carousel-control-next_inside" type="button" data-bs-target="#comments" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="footer__map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2604.4189330856075!2d4.01619195177349!3d49.249504979226245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e974f94feef9d1%3A0x7e86c3fcfe861d17!2s17%20Rue%20du%20Colonel%20Fabien%2C%2051100%20Reims!5e0!3m2!1sru!2sfr!4v1651407785086!5m2!1sru!2sfr" width="100%" height="630" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="footer__info">
+            <address class="footer__addr">17 Rue du Colonel Fabien, 51100<br>Reims</address>
+            <a href="tel:+33644933480" class="footer__tel">+33 644 933 480</a>
+        </div>
+    </footer>
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="ModalRegistration" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="ModalRegistration">remplissez le formulaire</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form name="Registration" method="POST" action="./src/form.php" class="row g-3 needs-validation" id="form">
+                    <div class="col-md-6">
+                        <small>Date</small>
+                        <input type="date" class="form-control" name="date" value="" min="" required>
+                    </div>
+                    <div class="col-md-6">
+                        <small>Time</small>
+                        <input type="time" class="form-control" name="time" value="" min="" required>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" name="lastname" placeholder="Votre nom" required>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" name="firstname" placeholder="Votre prénom" required>
+                    </div>
+                    <div class="col-md-6">
+                        <small>Votre &#8470; de téléphone</small>
+                        <input name="telephone" type="tel" class="form-control" pattern="[+][3][3][0-9]{9}" maxlength="12" name="tel" value="+33" required>
+                    </div>
+                    <div class="col-md-6">
+                        <small>Votre email</small>
+                        <input name="email" type="email" class="form-control" name="mail" placeholder="azerty@gmail.com">
+                    </div>
+                    <div class="col-md-12 form-check form-switch">
+                        <input class="form-check-input" type="checkbox" role="switch" name="case1">
+                        <label class="form-check-label" for="case1">Default switch checkbox input</label>
+                    </div>
+                    <div class="col-md-12 form-check form-switch">
+                        <input class="form-check-input" type="checkbox" role="switch" name="case2">
+                        <label class="form-check-label" for="case2">Default switch checkbox input</label>
+                    </div>
+                    <div class="col-md-12 form-check form-switch">
+                        <input class="form-check-input" type="checkbox" role="switch" name="case3">
+                        <label class="form-check-label" for="case3">Default switch checkbox input</label>
+                    </div>
+                    <div class="col-12">
+                        <button class="btn btn_border" type="submit">Submit form</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+  </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="./public/js/script.js"></script>
+    <!-- <script type="module" src="/public/js/getFormManicureBot/Entity/Form.js"></script>
+    <script type="module" src="/public/js/getFormManicureBot/index.js"></script>
+    <script type="module" src="node-telegram-bot-api"></script> -->
+    <!-- <script src="/public/js/getFormManicureBot/modal.js"></script> -->
+</body>
+</html>
