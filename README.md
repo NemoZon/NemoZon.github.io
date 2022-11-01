@@ -1,16 +1,24 @@
-# NemoZon.github.io
-Добро пожаловать в портфолио , в нем находятся проекты, с которыми я работал.
+# Main page of portfolio
 
-Вы можете с ними ознакомиться прописав в адресную строку NemoZon.github.io/projects/имя_проекта
-В данное время загружены такие проекты(имя_проекта) как:
-uber;
-puls;
+## Gulp
+```
+npm install sass gulp-sass --save-dev
+npm install gulp-clean-css --save-dev
+npm install --save-dev gulp-autoprefixer
+npm i gulp-rename
+```
 
+## Modules
+```
+npm install
+```
 
+## Run server
+```
+npm start
+```
 
-
-
-заметки: 
-uber- выровнить текст у кнопки промо по центру,
-puls-пофиксить джс скрипт для каталога,
-puls-добавть фавиконку,
+## Watch sass
+```
+gulp
+```

@@ -1,0 +1,49 @@
+.nav__item{
+    transition-property: all;
+    transition-duration: 300ms;
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    margin: 0 50px 0 50px;
+    font-size: 50px;
+    top: 50%;
+    left: 50%;
+    cursor: pointer;
+}
+
+.nav__item:hover {
+    transform: translate(-5px, -5px);
+    text-shadow: 3px 3px #888888, 10px 10px #000000;
+    text-decoration: none;
+    color: white;
+}
+.nav__item:active {
+    text-shadow: 3px 3px #e44545, 10px 10px #000000;
+}
+
+.nav__item_active {
+    position: absolute;
+    top: calc(50% - 1em);
+    left: 0;
+    color: white;
+    text-shadow: 3px 3px #888888, 10px 10px #000000;
+    font-size: 8vw;
+}
+.nav__item_active:hover {
+    transform: translate(0px, 0px);
+    text-decoration: none;
+}
+
+.nav__item_disabled{
+    position: absolute;
+    top: 50px;
+    left: 0;
+
+}
+
+.nav__item_menu{
+    display: inline-block;
+    
+}
