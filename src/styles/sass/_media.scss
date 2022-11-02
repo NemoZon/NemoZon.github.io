@@ -1,0 +1,12 @@
+@media (319px < width < 769px){
+    .message{
+        font-size: 0.7em;
+    }
+    .icons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+}

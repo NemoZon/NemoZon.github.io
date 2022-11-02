@@ -8,8 +8,12 @@
     "@testing-library/user-event": "^13.5.0",
     "gulp": "^4.0.2",
     "gulp-rename": "^2.0.0",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-normalize": "^10.0.1",
+    "postcss-preset-env": "^7.8.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.3",
     "react-scripts": "^2.1.3",
     "web-vitals": "^2.1.4"
   },
@@ -41,10 +45,10 @@
   },
   "devDependencies": {
     "gh-pages": "^4.0.0",
-    "gulp-autoprefixer": "^8.0.0",
+    "gulp-autoprefixer": "^6.1.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-sass": "^5.1.0",
     "sass": "^1.55.0"
   },
-  "homepage": "https://nemozon.github.io/"
+  "homepage": "https://nemozon.github.io/build/"
 }

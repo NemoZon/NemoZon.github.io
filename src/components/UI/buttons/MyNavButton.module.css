@@ -47,3 +47,22 @@
     display: inline-block;
     
 }
+@media (319px < width < 426px){
+    .nav__item{
+        margin: 0 15px 0 15px;
+    }
+
+    .nav__item_active {
+        position: absolute;
+        top: 25%;
+        left: 0;
+        font-size: 2.5em;
+    }
+
+    .nav__item_disabled {
+        position: absolute;
+        top: 50px;
+        left: 0;
+        font-size: 8vw;
+    }
+}

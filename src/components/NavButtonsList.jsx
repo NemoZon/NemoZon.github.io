@@ -12,7 +12,7 @@ const NavList = (props) => {
                 id: 1, 
                 active: false, 
                 img: {
-                    src: "https://images.unsplash.com/photo-1517960413843-0aee8e2b3285?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80",
+                    src: "./img/AboutMe/s2.webp",
                     alt: "It's Me"
                 },
                 desc: "J'ai réalisé de nombreux projets de développement front et back-end, et j'ai également créé un bot pour le réseau 'Telegram'. Sérieux dans le travail, je me forme constamment aux langages sur le web.Je souhaite acquérir ma première expérience en entreprise dans la programmation lors d'un stage du 11 avril au 2 juin 2023.",
@@ -63,7 +63,7 @@ const NavList = (props) => {
     function changeState(e) {
         const btn = buttons.find((elem)=>elem.title===e.target.textContent);
         let btns;
-        if (btn.state == 'active'){
+        if (btn.state ==='active'){
             btns = buttons.map((elem)=>{return {...elem,infoMenu: {...elem.infoMenu, active: false}, state: 'menu'}});
         } else{
             btns = buttons.map((elem)=>elem.title===e.target.textContent?{...elem,infoMenu: {...elem.infoMenu, active: true}, state: 'active'}:{...elem,infoMenu: {...elem.infoMenu, active: false}, state: 'disabled'});

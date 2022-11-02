@@ -35,7 +35,7 @@ const IconsList = (props) => {
         },
         {
             id: 6,
-            href: 'wa.me/79373644330', 
+            href: 'https://api.whatsapp.com/send/?phone=79373644330&text&type=phone_number&app_absent=0', 
             src: './img/icons/icons8-whatsapp.svg', 
             alt: 'whatsapp'
         }

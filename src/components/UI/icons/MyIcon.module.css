@@ -6,7 +6,7 @@
     animation: icons-opacity 1.5s ease 0.5s forwards;
     position: relative;
     bottom: 0;
-    transition:bottom 200ms ease;
+    transition:all 200ms ease;
 }
 
 .icons__item:hover{
@@ -15,6 +15,19 @@
     bottom: 10px;
     padding-bottom: 10px;
 }
+
+@media (319px < width < 769px){
+  .icons__item:hover{
+    text-decoration: none;
+    color: transparent;
+    left: 10px;
+    bottom: 0;
+    padding-left: 10px;
+    padding-bottom: 0;
+  }
+
+}
+
 @keyframes icons-opacity {
     from {
       opacity: 0;
