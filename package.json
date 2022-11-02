@@ -15,9 +15,11 @@
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts build",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm start build",
+    "deploy": "gh-pages -d build --git git"
   },
   "eslintConfig": {
     "extends": [
@@ -38,9 +40,11 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-sass": "^5.1.0",
     "sass": "^1.55.0"
-  }
+  },
+  "homepage": "https://nemozon.github.io/"
 }
